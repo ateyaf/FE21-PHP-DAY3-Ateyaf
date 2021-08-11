@@ -57,14 +57,14 @@
    
  for( $i=1; $i<100; $i++)
         {
-            if($i%3==0){
-                echo "Back-End </br>";
+            if($i%3==0 && $i%5==0){
+                echo "Full-stack</br>";
               }
             elseif($i%5==0){
                 echo "Front-End </br>";
             }
-            elseif($i%15==0){
-                echo "<h1>Full-Stack </br> </h1>";
+            elseif($i%3==0 ){
+                echo "Back-end </br> ";
             }
             else
             {
